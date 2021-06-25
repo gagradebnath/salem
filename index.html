@@ -12,6 +12,11 @@
             border-radius: 30px;
             background-color: rgba(255, 255, 255, 0.521);
         }
+        p{
+          font-family: Arial, Helvetica, sans-serif; 
+          font-size: 1rem;
+          font-weight: 5rem;
+        }
     </Style>
 </head>
 <body style="background-image:url(25552.svg) ;background-size: cover; background-position: top; background-repeat: no-repeat;">
@@ -34,11 +39,21 @@
         
                 <p>
                     SELECT PAYMENT METHOD
-                    <select type="text" value="" name="Subject" style =" border-radius: 30px;" required>
+                    <select type="text" value="" name="Subject" style =" border-radius: 30px; margin-right:10 px ;" required>
                         <option>Bkash</option>
                         <option>Nagad</option>
                         <option>Rocket</option>
                     </select>
+                </p>
+                <p>
+                    Promo Code:
+                    <input id="cost" type="text" name="due" style="width: 30%; text-align: center; 
+                        position:right; color :cornsilk;"/> 
+                    <button>apply</button></p></p>
+                <p>
+                <p>due: <br>
+                        <input id="cost" type="text" name="due" value="990" style="width: 30%; text-align: center; 
+                        position:right; color :cornsilk;" readonly/>
                 </p>
                 <p>
                     <input type="submit"value="send" name="Submit" size="2 rem" style="padding-left: 20px;color: white;background-color: rgb(36, 0, 66); padding-right: 20px; border-radius: 20px;"/>
