@@ -5,43 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <Style>
+        input[type=text]{
+            width: 70%;
+            height: 1.4rem;
+            border-radius: 30px;
+            background-color: rgba(255, 255, 255, 0.521);
+        }
+    </Style>
 </head>
 <body style="background-image:url(25552.svg) ;background-size: cover; background-position: top; background-repeat: no-repeat;">
-    <div style="background-color:#ffffff46;border-radius: 50px; 
-        margin-top: 3rem;text-align: center; width: 80%;max-width: 600px;padding: 2rem; 
+    <div style="background-color:#706c6c46;border-radius: 30px; 
+        margin-top: 3rem;text-align: center; width: 60%;max-width: 600px;padding: 2rem; 
         margin-left: auto; margin-right: auto; color:white;" >
             <h1 style="text-align: center;">REGISTRATION FORM</h1><hr>
             <form name="RegForm" action="submit.htm"
                 onsubmit="" method="post">
                 <p>Name: <br>
-                        <input type="text" size="30%" name="Name" style="border-radius: 10px;" height="20px" /></p>
-                <br />
+                        <input type="text"  name="Name" required/></p>
                 <p>Address: <br>
-                        <input type="text" size="30%" name="Address" style="border-radius: 10px;" /></p>
-                <br />
+                        <input type="text"  name="Address" required/></p>
                 <p>E-mail: <br>
-                        <input type="text"size="30%" name="EMail" style="border-radius: 10px;" /></p>
-                <br />
+                        <input type="text" name="EMail" required/></p>
                 <p>Password: <br>
-                        <input type="text"size="30%" name="Password" style="border-radius: 10px;"  /></p>
-                <br />
+                        <input type="text" name="Password" required /></p>
                 <p>Telephone: <br>
-                        <input type="text"size="30%" name="Telephone" style="border-radius: 10px;" /></p>
-                <br />
+                        <input type="text" name="Telephone" required /></p>
         
                 <p>
-                    SELECT YOUR COURSE
-                    <select type="text" value="" name="Subject" style="border-radius: 10px;" >
-                        <option>BTECH</option>
-                        <option>BBA</option>
-                        <option>BCA</option>
-                        <option>B.COM</option>
-                        <option>GEEKFORGEEKS</option>
+                    SELECT PAYMENT METHOD
+                    <select type="text" value="" name="Subject" style =" border-radius: 30px;" required>
+                        <option>Bkash</option>
+                        <option>Nagad</option>
+                        <option>Rocket</option>
                     </select>
                 </p>
-                <br />
                 <p>
-                    <input type="submit"value="send" name="Submit" size="10%" style="border-radius: 10px;"/>
+                    <input type="submit"value="send" name="Submit" size="2 rem" style="padding-left: 20px;color: white;background-color: rgb(36, 0, 66); padding-right: 20px; border-radius: 20px;"/>
                 </p>
             </form>
     </div>
